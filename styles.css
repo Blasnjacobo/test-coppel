@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0 5%;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    height: 100%;
+    width: 80%;
+}
+
+.hero-container img {
+    width: 20%;
+}
+
+.hero-container h1 {
+    width: 70%;
+}
+
+.main_img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main_btn {
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.coppelSalud {
+    width: 100%;
+}
+
+.servicios {
+    margin: 2rem 0;
+}
+
+.servicios .title {
+    margin-bottom: 1rem;
+}
+
+.servicios_ofrecidos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.servicio-section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 5px;
+}
+
+.servicio-section a {
+    color: blue;
+}
+
+.beneficios-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.beneficios>h2 {
+    text-align: center;
+}
+
+.credito_coppel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.farmaLeal-section {
+    text-align: center;
+}
+
+.farmaLeal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.farmacia-iconos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icono:hover {
+    border: 1px solid blue;
+}
+
+.farmacia-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienestar-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: aliceblue;
+}
+
+.bienestar-section img {
+    width: 100%;
+}
+
+.opiniones-section {
+    text-align: center;
+}
+
+.clientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente .description {
+    text-align: center;
+}
+
+.conectar-futuro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.conectar-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.everHealth {
+    display: flex;
+    flex-direction: row;
+}
+
+.conectar-futuro>img {
+    max-height: 200px;
+    width: 100%;
+}
+
+.modulo-coppel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.modulo-coppel>img {
+    max-height: 200px;
+    width: 100%;
+}
+
+.conectar-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.conectar-description select {
+    width: 100px;
+}
